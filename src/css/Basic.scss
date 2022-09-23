@@ -1,13 +1,13 @@
 $main-color: #032777;
-$color-gray: #dddddd;
-$font-small: 14px;
-$font-medium: 15px;
-$font-big: 20px;
-
+$color-gray : #dddddd;
+$font-small : 13px;
+$font-midume : 17px;
+$font-big : 20px;
 
 body {
     overflow-x: hidden;
 }
+
 .Wrapper {
     min-width: 1170px;
 }
@@ -17,10 +17,13 @@ body {
     margin: 0 auto;
 }
 
+
 .Header {
-    .top_bar {
+    .top__bar {
         border-bottom: 1px solid $color-gray;
         font-size: $font-small;
+        font-weight: 500;
+
         .inner {
             justify-content: flex-end;
             line-height: 30px;
